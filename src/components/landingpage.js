@@ -13,7 +13,7 @@ class Landing extends Component{
 	          				className ="avatar-img"
 	          			/>
 	          			<div className="banner-text"> 
-	          				<h1>Aspiring Software Engineer</h1>
+	          				<h1>Software Engineer</h1>
 	          				<hr/>
 	          				<p> AI | Django Rest Framework | Java | React | React Native | Python | C </p>
 	          				<div className="social-links">
@@ -25,6 +25,12 @@ class Landing extends Component{
 	          					<a href="https://github.com/JanillLema/" rel="noopener noreferrer" target="_blank">
 	          						<i className="fa fa-github-square" aria-hidden="true" />
 	          					</a>
+
+	          					<a href="https://www.facebook.com/m4rv3ly" rel="noopener noreferrer" target="_blank">
+	          						<i className="fa fa-facebook-square" aria-hidden="true" />
+	          					</a>
+
+	          					
 
 	          				</div>
 

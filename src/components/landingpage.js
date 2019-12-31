@@ -13,9 +13,9 @@ class Landing extends Component{
 	          				className ="avatar-img"
 	          			/>
 	          			<div className="banner-text"> 
-	          				<h1>Software Engineer</h1>
+	          				<h1> Janill M. Lema </h1>
 	          				<hr/>
-	          				<p> AI | Django Rest Framework | Java | React | React Native | Python | C </p>
+	          				<p> Aspiring Software Engineer  </p>
 	          				<div className="social-links">
 
 	          					<a href="https://www.linkedin.com/in/janill-lema-514b2b97/" rel="noopener noreferrer" target="_blank">

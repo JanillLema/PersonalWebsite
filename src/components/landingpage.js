@@ -29,9 +29,6 @@ class Landing extends Component{
 	          					<a href="https://www.facebook.com/m4rv3ly" rel="noopener noreferrer" target="_blank">
 	          						<i className="fa fa-facebook-square" aria-hidden="true" />
 	          					</a>
-
-	          					
-
 	          				</div>
 
 	          			</div>

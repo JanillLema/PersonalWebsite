@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import { Grid,Cell, ProgressBar, Chip, ChipContact} from 'react-mdl';
 import Skill from './skill';
+import { IoIosSchool } from "react-icons/io";
+import { MdWork } from "react-icons/md";
+import { GoOrganization } from "react-icons/go"; 
 import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -85,15 +88,15 @@ class Resume extends Component{
 				    	</Cell>
 					<Cell className= "resume-right-col" col={8}> 
 					    <div>
+					        <h1 style={{textAlign: 'center'}} > MY TIMELINE </h1>
 							<VerticalTimeline>
 
-							    <VerticalTimelineElement
-								    className="vertical-timeline-element--education"
+							    <VerticalTimelineElement className="vertical-timeline-element--education"
 								    contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 								    contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
 								    date="SEPTEMBER 2016 - MAY 2020"
 								    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-								    //icon={<SchoolIcon />}
+								    icon={<IoIosSchool />}
 								  >
 								    <h3 className="vertical-timeline-element-title">COLUMBIA UNIVERISTY</h3>
 								    <h4 className="vertical-timeline-element-subtitle"> Major: Computer Science </h4>
@@ -103,12 +106,12 @@ class Resume extends Component{
 								    </p>
 							    </VerticalTimelineElement>
 
-							    <VerticalTimelineElement
-								    className="vertical-timeline-element--org"
+							    <VerticalTimelineElement className="vertical-timeline-element--org"
 								    contentStyle={{ background: 'rgb(255, 85, 0)', color: '#fff' }}
 								    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 85, 0)' }}
 								    date="FEBURARY 2018 - PRESENT"
 								    iconStyle={{ background: 'rgb(255, 85, 0)', color: '#fff' }}
+								    icon={<GoOrganization />}
 								  >
 
 								    <h3 className="vertical-timeline-element-title">WAVE ADVISEE</h3>
@@ -118,13 +121,12 @@ class Resume extends Component{
 								    </p>
 								</VerticalTimelineElement>
 
-								<VerticalTimelineElement
-								    className="vertical-timeline-element--work"
+								<VerticalTimelineElement className="vertical-timeline-element--work"
 								    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 								    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
 								    date="JUNE 2018 - AUGUST 2018"
 								    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-								    //icon={<WorkIcon />}
+								    icon={<MdWork />}
 								  >
 								    <h3 className="vertical-timeline-element-title">DATA INTEGRATION INTERN</h3>
 								    <h4 className="vertical-timeline-element-subtitle"> Columbia University IT Dept.</h4>
@@ -133,13 +135,12 @@ class Resume extends Component{
 								    </p>
 								</VerticalTimelineElement>
 
-								<VerticalTimelineElement
-								    className="vertical-timeline-element--org"
+								<VerticalTimelineElement className="vertical-timeline-element--org"
 								    contentStyle={{ background: 'rgb(255, 85, 0)', color: '#fff' }}
 								    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 85, 0)' }}
 								    date="JUNE 2019 - PRESENT"
 								    iconStyle={{ background: 'rgb(255, 85, 0)', color: '#fff' }}
-								    //icon={<WorkIcon />}
+								    icon={<GoOrganization />}
 								  >
 								    <h3 className="vertical-timeline-element-title">Software Engineering Trainee</h3>
 								    <h4 className="vertical-timeline-element-subtitle"> Wallbreakers </h4>
@@ -150,13 +151,12 @@ class Resume extends Component{
 								</VerticalTimelineElement>
 
  					
-								<VerticalTimelineElement
-								    className="vertical-timeline-element--work"
+								<VerticalTimelineElement className="vertical-timeline-element--work"
 								    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 								    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
 								    date="JULY 2019 - SEPTEMBER 2019"
 								    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-								    //icon={<WorkIcon />}
+								    icon={<MdWork />}
 								  >
 								    <h3 className="vertical-timeline-element-title">Backend Engineer Intern</h3>
 								    <h4 className="vertical-timeline-element-subtitle"> Avoy </h4>
@@ -165,9 +165,7 @@ class Resume extends Component{
 								    </p>
 								</VerticalTimelineElement>
 							</VerticalTimeline>
-
                         </div>
-
 					</Cell>
 				</Grid>
 			</div>

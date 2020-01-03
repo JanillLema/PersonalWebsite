@@ -30,15 +30,13 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #C0C0C0;
+  background: #808080;
   color: white;
 }
 
 .vertical-timeline-element-title{
   color: black; 
-  font-weight: bold;
 }
-
 
 
 /* contact page css */
@@ -81,6 +79,28 @@
   font-size: 66px;
   padding-right: 5rem;
 }
+
+
+/* about me*/
+.flip-square {
+  backgroundColor: '#41669d';
+}
+
+.about-me-right{
+  text-align: center;
+}
+
+.about-me-right hr {
+  border-top: 1px janilllema.png;
+  width: 50%;
+  margin: auto;
+}
+
+.avatar-img-about {
+  height: 400px;
+  padding-top: 2em;
+}
+
 
 
 /* contact page css */

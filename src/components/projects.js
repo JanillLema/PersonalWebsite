@@ -15,9 +15,9 @@ class Projects extends Component {
         <div className="projects-grid">
 
           {/* NLP : IMAGE GENERATOR BOT */}
-           <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+
+           <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} > </CardTitle>
                 <CardText>
                   <h4 align="center" > Image Caption Generator Bot </h4> 
                   <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
@@ -30,7 +30,7 @@ class Projects extends Component {
               </Card>
             </div>
 
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+            <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
                 <CardText>
@@ -48,9 +48,13 @@ class Projects extends Component {
 
 
             {/* Project 2 */}
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+            <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+                <img 
+                    src={require('./hs.png')} 
+                    alt = "avatar"
+                    className ="avatar-img-card"
+                  />
                 <CardText>
                   <h4 align="center" > Improving NYC Specialized High School Diversity </h4> 
                   <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
@@ -65,9 +69,13 @@ class Projects extends Component {
    
 
             {/* Project 3 */}
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+            <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+                  <img 
+                    src={require('./abstractclock.png')} 
+                    alt = "avatar"
+                    className ="avatar-img-card"
+                  />
                 <CardText>
                   <h4 align="center"> Abstract Clock Using D3.js </h4> 
                   <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
@@ -80,35 +88,39 @@ class Projects extends Component {
               </Card>
             </div>
 
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10 }} >
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
-              <CardText>
-                <h4 align="center"> Android Movie App </h4> 
-                <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-            </Card>
+            <div className="card-element" >
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                 <img 
+                    src={require('./movie.png')} 
+                    alt = "avatar"
+                    className ="avatar-img-card"
+                  />
+                <CardText>
+                  <h4 align="center"> Android Movie App </h4> 
+                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                  <Button colored>CodePen</Button>
+                  <Button colored>Live Demo</Button>
+                </CardActions>
+              </Card>
             </div>
 
 
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10 }} >
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
-              <CardText>
-                <h4 align="center"> To-Do Android App </h4> 
-                <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-            </Card>
+            <div className="card-element" >
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+                <CardText>
+                  <h4 align="center"> To-Do Android App </h4> 
+                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                  <Button colored>CodePen</Button>
+                  <Button colored>Live Demo</Button>
+                </CardActions>
+              </Card>
             </div>
       
 
@@ -119,7 +131,7 @@ class Projects extends Component {
                 <div className="projects-grid">
 
           {/* NLP : IMAGE GENERATOR BOT */}
-           <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+           <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} > </CardTitle>
                 <CardText>
@@ -142,35 +154,35 @@ class Projects extends Component {
                 <div className="projects-grid">
 
 
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10 }} >
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
-              <CardText>
-                <h4 align="center"> Android Movie App </h4> 
-                <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-            </Card>
+            <div className="card-element" >
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+                <CardText>
+                  <h4 align="center"> Android Movie App </h4> 
+                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                  <Button colored>CodePen</Button>
+                  <Button colored>Live Demo</Button>
+                </CardActions>
+              </Card>
             </div>
 
 
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10 }} >
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
-              <CardText>
-                <h4 align="center"> To-Do Android App </h4> 
-                <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-            </Card>
+            <div className="card-element" >
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
+                <CardText>
+                  <h4 align="center"> To-Do Android App </h4> 
+                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                  <Button colored>CodePen</Button>
+                  <Button colored>Live Demo</Button>
+                </CardActions>
+              </Card>
             </div>
       
           </div>
@@ -182,7 +194,7 @@ class Projects extends Component {
 
 
               {/* Project 2 */}
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+            <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
                 <CardText>
@@ -199,7 +211,7 @@ class Projects extends Component {
    
 
             {/* Project 3 */}
-            <div style={{marginLeft: 50, marginRight : 50, marginBottom:10, marginTop: 10}} >
+            <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} ></CardTitle>
                 <CardText>

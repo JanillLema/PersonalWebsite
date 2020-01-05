@@ -18,7 +18,7 @@ class Resume extends Component{
                 
 				    	<div>
 					    	<img 
-		          				src={require('./headshot.png')} 
+		          				src={require('./image/headshot.png')} 
 		          				alt = "avatar"
 		          				style={{height: '200px'}}
 		          			/>

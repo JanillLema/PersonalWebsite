@@ -14,13 +14,18 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
 
-          {/* NLP : IMAGE GENERATOR BOT */}
+          {/* NLP : IMAGE GENERATOR */}
 
            <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <img 
+                    src={require('./image/model.png')} 
+                    alt = "avatar"
+                    className ="avatar-img-card"
+                />
                 <CardText>
-                  <h4 align="center" > Image Caption Generator Bot </h4> 
-                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                  <h4 align="center" > Image Caption Generator  </h4> 
+                  <p align="center"> An image is chosen and a caption is generated for it using a Bi LSTM model and beam search decoder. <b> #DeepLearning #NLP </b> </p>
                 </CardText>
                 <CardActions border>
                   <Button colored>GitHub</Button>
@@ -51,13 +56,13 @@ class Projects extends Component {
             <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <img 
-                    src={require('./hs.png')} 
+                    src={require('./image/hs.png')} 
                     alt = "avatar"
                     className ="avatar-img-card"
                   />
                 <CardText>
                   <h4 align="center" > Improving NYC Specialized High School Diversity </h4> 
-                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                  <p align="center"> An analysis of the current diversity issue in NYC highschools using data visualization. <b> #d3.js  </b> </p>
                 </CardText>
                 <CardActions border>
                   <Button colored>GitHub</Button>
@@ -72,13 +77,13 @@ class Projects extends Component {
             <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                   <img 
-                    src={require('./abstractclock.png')} 
+                    src={require('./image/abstractclock.png')} 
                     alt = "avatar"
                     className ="avatar-img-card"
                   />
                 <CardText>
-                  <h4 align="center"> Abstract Clock Using D3.js </h4> 
-                  <p align="center"> Users can upload an image and recieve a caption produced by an LSTM model. <b> #Frontend_React #Backend_Django #DeepLearning #NLP </b> </p>
+                  <h4 align="center"> Abstract Clock Using  </h4> 
+                  <p align="center"> An abstract clock that tells the current hour, minute and second.  <b> #p5.js </b> </p>
                 </CardText>
                 <CardActions border>
                   <Button colored>GitHub</Button>
@@ -91,7 +96,7 @@ class Projects extends Component {
             <div className="card-element" >
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                  <img 
-                    src={require('./movie.png')} 
+                    src={require('./image/movie.png')} 
                     alt = "avatar"
                     className ="avatar-img-card"
                   />

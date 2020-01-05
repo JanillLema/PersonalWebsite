@@ -10,7 +10,7 @@ class Contact extends Component {
             <Cell col={6}>
               <h2>Janill M. Lema</h2>
         		<img 
-    				src={require('./headshot.png')} 
+    				src={require('./image/headshot.png')} 
     				alt = "avatar"
     				style={{height: '250px'}}
     			/>           
